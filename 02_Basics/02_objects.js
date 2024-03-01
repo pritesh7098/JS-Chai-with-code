@@ -1,5 +1,5 @@
 
-const regularUser = {
+/* const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
@@ -23,4 +23,19 @@ const obj5 = {...obj1,...obj2,...obj4}
 console.log(obj5);
 
 
+
+ */
+
+
+// object destructuring 
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+
+const  { price : p } = course
+console.log(p);
 
