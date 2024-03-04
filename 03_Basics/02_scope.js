@@ -1,10 +1,10 @@
 function one(){
-    const username = "hitesh"
+    const username = "Pritesh"
 
     function two(){
         const website = "youtube"
-        //console.log(username);
-        console.log(website);
+        console.log(username);
+        //console.log(website);
     }
      
 
