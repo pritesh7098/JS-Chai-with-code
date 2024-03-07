@@ -1,5 +1,5 @@
-const myarray = [1,2,3,4,5,6,7,8,9]
-const total= myarray.filter ( (par) => par>4) 
+//const myarray = [1,2,3,4,5,6,7,8,9]
+//const total= myarray.filter ( (par) => par>4) 
 
 //console.log(myarray);
 
@@ -23,7 +23,21 @@ const books = [
   { 
     return bks.publish >2010 
 } )
-  console.log(userbooks);
+  //console.log(userbooks);
 
 
+//map 
+
+ const myarray1 = [1,2,3,4,5]
+ const myarrtotal= myarray1.map( (nums) => nums+1 ).map( (nums)=>nums*2).filter((nums) => nums>=8)
+
+console.log(myarrtotal);
+
+  // Reduce 
+
+  const myarray = [1,2,3,4,5]
+  
+  const total= myarray.reduce( (acc,cuurv) =>  acc+cuurv,0 )
+
+  //console.log(total);
 
